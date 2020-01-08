@@ -113,7 +113,7 @@ class PlayerTank extends BaseTank {
     }
     // modify angle based on keys
     if (this.keys.a.isDown) {
-      if (this.currentSpeed != 0) {
+      if (this.currentSpeed > = 0) {
         this.hull.angle--;
       } else {
         this.hull.angle++;
